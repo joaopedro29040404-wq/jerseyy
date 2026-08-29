@@ -1,11 +1,5 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root { color-scheme: dark; }
-html { scroll-behavior: smooth; }
-body { margin:0; background:#050505; color:#f7f7f7; font-family:Arial, Helvetica, sans-serif; }
-* { box-sizing:border-box; }
-.gold { color:#d4af37; }
-.bg-gold { background:#d4af37; }
-.border-gold { border-color:#d4af37; }
+:root{color-scheme:dark;--gold:#d4af37;--gold2:#f1d36a}
+html{scroll-behavior:smooth}body{margin:0;background:#030303;color:#f8f8f8;font-family:Arial,Helvetica,sans-serif}*{box-sizing:border-box}::selection{background:var(--gold);color:#050505}.gold{color:var(--gold)}.bg-gold{background:var(--gold)}.border-gold{border-color:var(--gold)}.gold-line{height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent)}.gold-glow{box-shadow:0 0 45px rgba(212,175,55,.12)}.jg-panel{background:linear-gradient(145deg,rgba(255,255,255,.05),rgba(255,255,255,.012));border:1px solid rgba(212,175,55,.28)}.jg-button{background:linear-gradient(135deg,#d4af37,#b88b18);color:#050505;font-weight:900;transition:.2s;box-shadow:0 8px 28px rgba(212,175,55,.14)}.jg-button:hover{transform:translateY(-1px);filter:brightness(1.08)}.jg-input{background:#090909;border:1px solid rgba(255,255,255,.13);outline:none}.jg-input:focus{border-color:var(--gold);box-shadow:0 0 0 2px rgba(212,175,55,.08)}
