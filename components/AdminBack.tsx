@@ -1,0 +1,1 @@
+export default function AdminBack({title}:{title:string}){return <div className="mb-8 flex items-center justify-between"><div><a href="/admin" className="text-sm text-white/40">← Dashboard</a><h1 className="mt-2 text-3xl font-black">{title}</h1></div></div>}
